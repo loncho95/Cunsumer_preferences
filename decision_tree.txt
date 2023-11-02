@@ -1,0 +1,178 @@
+|--- SocialRespect_5.0 <= 0.50
+|   |--- Education_Bac <= 0.50
+|   |   |--- SpecificDiet_0.0 <= 0.50
+|   |   |   |--- AnimalWelfare_10.0 <= 0.50
+|   |   |   |   |--- Organic_10.0 <= 0.50
+|   |   |   |   |   |--- PlantBasedAlternatives_5.0 <= 0.50
+|   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |--- PlantBasedAlternatives_5.0 >  0.50
+|   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |--- Organic_10.0 >  0.50
+|   |   |   |   |   |--- Slimming_10.0 <= 0.50
+|   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |--- Slimming_10.0 >  0.50
+|   |   |   |   |   |   |--- class: 4.0
+|   |   |   |--- AnimalWelfare_10.0 >  0.50
+|   |   |   |   |--- Local_0.0 <= 0.50
+|   |   |   |   |   |--- EnvironmentalRespect_0.0 <= 0.50
+|   |   |   |   |   |   |--- class: 4.0
+|   |   |   |   |   |--- EnvironmentalRespect_0.0 >  0.50
+|   |   |   |   |   |   |--- class: 4.0
+|   |   |   |   |--- Local_0.0 >  0.50
+|   |   |   |   |   |--- HealthNutrition_0.0 <= 0.50
+|   |   |   |   |   |   |--- class: 4.0
+|   |   |   |   |   |--- HealthNutrition_0.0 >  0.50
+|   |   |   |   |   |   |--- class: 4.0
+|   |   |--- SpecificDiet_0.0 >  0.50
+|   |   |   |--- taste_0.0 <= 0.50
+|   |   |   |   |--- HealthNutrition_10.0 <= 0.50
+|   |   |   |   |   |--- taste_5.0 <= 0.50
+|   |   |   |   |   |   |--- class: 4.0
+|   |   |   |   |   |--- taste_5.0 >  0.50
+|   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |--- HealthNutrition_10.0 >  0.50
+|   |   |   |   |   |--- SocialRespect_10.0 <= 0.50
+|   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |--- SocialRespect_10.0 >  0.50
+|   |   |   |   |   |   |--- class: 4.0
+|   |   |   |--- taste_0.0 >  0.50
+|   |   |   |   |--- HealthNutrition_0.0 <= 0.50
+|   |   |   |   |   |--- SocialRespect_0.0 <= 0.50
+|   |   |   |   |   |   |--- class: 4.0
+|   |   |   |   |   |--- SocialRespect_0.0 >  0.50
+|   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |--- HealthNutrition_0.0 >  0.50
+|   |   |   |   |   |--- EnvironmentalRespect_0.0 <= 0.50
+|   |   |   |   |   |   |--- class: 4.0
+|   |   |   |   |   |--- EnvironmentalRespect_0.0 >  0.50
+|   |   |   |   |   |   |--- class: 2.0
+|   |--- Education_Bac >  0.50
+|   |   |--- HealthNutrition_10.0 <= 0.50
+|   |   |   |--- SocialRespect_0.0 <= 0.50
+|   |   |   |   |--- EnvironmentalRespect_5.0 <= 0.50
+|   |   |   |   |   |--- Restaurant <= 0.50
+|   |   |   |   |   |   |--- class: 3.0
+|   |   |   |   |   |--- Restaurant >  0.50
+|   |   |   |   |   |   |--- class: 4.0
+|   |   |   |   |--- EnvironmentalRespect_5.0 >  0.50
+|   |   |   |   |   |--- taste_0.0 <= 0.50
+|   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |--- taste_0.0 >  0.50
+|   |   |   |   |   |   |--- class: 3.0
+|   |   |   |--- SocialRespect_0.0 >  0.50
+|   |   |   |   |--- taste_0.0 <= 0.50
+|   |   |   |   |   |--- EnvironmentalRespect_10.0 <= 0.50
+|   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |--- EnvironmentalRespect_10.0 >  0.50
+|   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |--- taste_0.0 >  0.50
+|   |   |   |   |   |--- EnvironmentalRespect_0.0 <= 0.50
+|   |   |   |   |   |   |--- class: 3.0
+|   |   |   |   |   |--- EnvironmentalRespect_0.0 >  0.50
+|   |   |   |   |   |   |--- class: 3.0
+|   |   |--- HealthNutrition_10.0 >  0.50
+|   |   |   |--- Local_5.0 <= 0.50
+|   |   |   |   |--- AnimalWelfare_0.0 <= 0.50
+|   |   |   |   |   |--- Organic_0.0 <= 0.50
+|   |   |   |   |   |   |--- class: 4.0
+|   |   |   |   |   |--- Organic_0.0 >  0.50
+|   |   |   |   |   |   |--- class: 4.0
+|   |   |   |   |--- AnimalWelfare_0.0 >  0.50
+|   |   |   |   |   |--- Local_0.0 <= 0.50
+|   |   |   |   |   |   |--- class: 4.0
+|   |   |   |   |   |--- Local_0.0 >  0.50
+|   |   |   |   |   |   |--- class: 3.0
+|   |   |   |--- Local_5.0 >  0.50
+|   |   |   |   |--- Income <= 54999.50
+|   |   |   |   |   |--- SocialRespect_10.0 <= 0.50
+|   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |--- SocialRespect_10.0 >  0.50
+|   |   |   |   |   |   |--- class: 4.0
+|   |   |   |   |--- Income >  54999.50
+|   |   |   |   |   |--- class: 0.0
+|--- SocialRespect_5.0 >  0.50
+|   |--- Organic_10.0 <= 0.50
+|   |   |--- taste_10.0 <= 0.50
+|   |   |   |--- EnvironmentalRespect_5.0 <= 0.50
+|   |   |   |   |--- Organic_0.0 <= 0.50
+|   |   |   |   |   |--- gym <= 0.50
+|   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |--- gym >  0.50
+|   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |--- Organic_0.0 >  0.50
+|   |   |   |   |   |--- PlantBasedAlternatives_0.0 <= 0.50
+|   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |--- PlantBasedAlternatives_0.0 >  0.50
+|   |   |   |   |   |   |--- class: 1.0
+|   |   |   |--- EnvironmentalRespect_5.0 >  0.50
+|   |   |   |   |--- HealthNutrition_0.0 <= 0.50
+|   |   |   |   |   |--- Age <= 24.50
+|   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |--- Age >  24.50
+|   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |--- HealthNutrition_0.0 >  0.50
+|   |   |   |   |   |--- AnimalWelfare_5.0 <= 0.50
+|   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |--- AnimalWelfare_5.0 >  0.50
+|   |   |   |   |   |   |--- class: 0.0
+|   |   |--- taste_10.0 >  0.50
+|   |   |   |--- EnvironmentalRespect_0.0 <= 0.50
+|   |   |   |   |--- population_750000 <= 0.50
+|   |   |   |   |   |--- HealthNutrition_5.0 <= 0.50
+|   |   |   |   |   |   |--- class: 4.0
+|   |   |   |   |   |--- HealthNutrition_5.0 >  0.50
+|   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |--- population_750000 >  0.50
+|   |   |   |   |   |--- class: 4.0
+|   |   |   |--- EnvironmentalRespect_0.0 >  0.50
+|   |   |   |   |--- Education_Bac+5 <= 0.50
+|   |   |   |   |   |--- Education_Doctorat <= 0.50
+|   |   |   |   |   |   |--- class: 3.0
+|   |   |   |   |   |--- Education_Doctorat >  0.50
+|   |   |   |   |   |   |--- class: 4.0
+|   |   |   |   |--- Education_Bac+5 >  0.50
+|   |   |   |   |   |--- Income <= 59999.50
+|   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |--- Income >  59999.50
+|   |   |   |   |   |   |--- class: 1.0
+|   |--- Organic_10.0 >  0.50
+|   |   |--- HealthNutrition_5.0 <= 0.50
+|   |   |   |--- AnimalWelfare_10.0 <= 0.50
+|   |   |   |   |--- Country_DE <= 0.50
+|   |   |   |   |   |--- Local_5.0 <= 0.50
+|   |   |   |   |   |   |--- class: 4.0
+|   |   |   |   |   |--- Local_5.0 >  0.50
+|   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |--- Country_DE >  0.50
+|   |   |   |   |   |--- pc <= 2.50
+|   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |--- pc >  2.50
+|   |   |   |   |   |   |--- class: 1.0
+|   |   |   |--- AnimalWelfare_10.0 >  0.50
+|   |   |   |   |--- PlantBasedAlternatives_5.0 <= 0.50
+|   |   |   |   |   |--- class: 4.0
+|   |   |   |   |--- PlantBasedAlternatives_5.0 >  0.50
+|   |   |   |   |   |--- Local_5.0 <= 0.50
+|   |   |   |   |   |   |--- class: 4.0
+|   |   |   |   |   |--- Local_5.0 >  0.50
+|   |   |   |   |   |   |--- class: 0.0
+|   |   |--- HealthNutrition_5.0 >  0.50
+|   |   |   |--- population_1000000 <= 0.50
+|   |   |   |   |--- Ecommerce <= 0.50
+|   |   |   |   |   |--- class: 1.0
+|   |   |   |   |--- Ecommerce >  0.50
+|   |   |   |   |   |--- Age <= 32.00
+|   |   |   |   |   |   |--- class: 4.0
+|   |   |   |   |   |--- Age >  32.00
+|   |   |   |   |   |   |--- class: 0.0
+|   |   |   |--- population_1000000 >  0.50
+|   |   |   |   |--- Slimming_0.0 <= 0.50
+|   |   |   |   |   |--- Slimming_5.0 <= 0.50
+|   |   |   |   |   |   |--- class: 4.0
+|   |   |   |   |   |--- Slimming_5.0 >  0.50
+|   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |--- Slimming_0.0 >  0.50
+|   |   |   |   |   |--- taste_10.0 <= 0.50
+|   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |--- taste_10.0 >  0.50
+|   |   |   |   |   |   |--- class: 4.0
